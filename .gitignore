@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+models/
+*.pth
+*.bin
+.ipynb_checkpoints/
+.planning/
+
+*.zip
+*.tar
+*.gz
+
+# Keep processed and synthetic data
+!data/processed/
+!data/synthetic/
